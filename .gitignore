@@ -1,0 +1,17 @@
+# Build outputs and IDE state
+.gradle/
+**/build/
+.idea/
+*.iml
+local.properties
+.DS_Store
+*.log
+# Signing assets and credentials
+*.jks
+*.keystore
+key.properties
+*.pem
+*.p12
+# No secrets in git
+.env
+.env.*

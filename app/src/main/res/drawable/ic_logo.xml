@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Lap phung lop hexagon -->
+    <path
+        android:fillColor="#101A3F"
+        android:pathData="M12,2.4 L20.4,7.2 L20.4,16.8 L12,21.6 L3.6,16.8 L3.6,7.2 Z" />
+    <!-- Vien hexagon neon xanh -->
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="1.1"
+        android:fillColor="#00000000"
+        android:pathData="M12,2.4 L20.4,7.2 L20.4,16.8 L12,21.6 L3.6,16.8 L3.6,7.2 Z" />
+    <!-- Hexagon trong mau tim nhe -->
+    <path
+        android:strokeColor="#66B388FF"
+        android:strokeWidth="0.6"
+        android:fillColor="#00000000"
+        android:pathData="M12,4.6 L18.4,8.3 L18.4,15.7 L12,19.4 L5.6,15.7 L5.6,8.3 Z" />
+    <!-- Tia set -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M13.4,6.2 L8.2,13.3 L11.4,13.3 L10.2,18.2 L15.8,10.6 L12.5,10.6 Z" />
+    <!-- Diem sang nho -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.55"
+        android:pathData="M13.4,6.2 L11.8,8.5 L13.1,8.5 Z" />
+</vector>

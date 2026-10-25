@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HAVANHHUAN Booster</string>
+    <string name="splash_title">HAVANHHUAN</string>
+    <string name="splash_tagline">TỐI ƯU  •  THEO DÕI  •  BẢO VỆ</string>
+    <string name="splash_loading">Đang khởi động hệ thống…</string>
+
+    <string name="key_title">KÍCH HOẠT ỨNG DỤNG</string>
+    <string name="key_subtitle">Nhập mã kích hoạt để truy cập bảng điều khiển thiết bị</string>
+    <string name="key_input_hint">Nhập key của bạn…</string>
+    <string name="key_card_title">MÃ KÍCH HOẠT</string>
+    <string name="key_unlock">MỞ KHÓA</string>
+    <string name="key_verifying">ĐANG XÁC THỰC…</string>
+    <string name="key_error">Key không đúng. Vui lòng thử lại.</string>
+    <string name="key_success_toast">Đã kích hoạt thành công</string>
+    <string name="key_note">Phiên bản demo: key được kiểm tra ngay trên thiết bị.</string>
+
+    <string name="main_greeting">Trung tâm thông tin thiết bị</string>
+    <string name="dashboard_eyebrow">DEVICE CONTROL CENTER</string>
+    <string name="dashboard_heading">Tổng quan thiết bị</string>
+    <string name="dashboard_subtitle">Dữ liệu thực, cập nhật trực tiếp từ Android</string>
+    <string name="live_device_status">●  THÔNG SỐ THỜI GIAN THỰC</string>
+    <string name="gauge_label">RAM CÒN TRỐNG</string>
+    <string name="status_initial">Đang đọc thông tin thiết bị…</string>
+    <string name="status_ready">RAM còn trống: %1$d%% • Chạm để kiểm tra lại</string>
+    <string name="scan_finished">Đã cập nhật • RAM trống %1$d%%</string>
+    <string name="scan_disclaimer">Đã làm mới dữ liệu. Android không cho ứng dụng thường tăng tốc toàn hệ thống chỉ bằng một nút.</string>
+    <string name="boost_now">KIỂM TRA HIỆU NĂNG  ↗</string>
+    <string name="tools_title">Công cụ hệ thống</string>
+    <string name="tools_hint">CHẠM ĐỂ MỞ</string>
+    <string name="ram_title">Bộ nhớ RAM</string>
+    <string name="ram_value">%1$s / %2$s trống</string>
+    <string name="ram_detail">RAM còn trống %1$s trên tổng %2$s. Số liệu do Android cung cấp, không phải RAM được giải phóng bởi ứng dụng.</string>
+    <string name="junk_title">Bộ nhớ lưu trữ</string>
+    <string name="storage_value">Còn %1$s</string>
+    <string name="cpu_title">Nhiệt độ pin</string>
+    <string name="temperature_detail">Nhiệt độ pin hiện tại: %1$s. Đây không phải nhiệt độ CPU vì Android không cung cấp thông số CPU trực tiếp cho hầu hết ứng dụng.</string>
+    <string name="battery_title">Tiết kiệm pin</string>
+    <string name="battery_value">Còn %1$d%% pin</string>
+    <string name="game_title">Mở ứng dụng / game</string>
+    <string name="game_before">Chọn trò chơi để khởi chạy</string>
+    <string name="refresh">Làm mới số liệu</string>
+    <string name="choose_app">Chọn ứng dụng để mở</string>
+    <string name="not_available">Không có dữ liệu</string>
+    <string name="settings_unavailable">Không mở được màn hình cài đặt trên thiết bị này.</string>
+    <string name="understood">Đã hiểu</string>
+    <string name="footer">HAVANHHUAN BOOSTER  •  BUILD 1.1  •  DEVICE DASHBOARD</string>
+    <string name="logout_title">Đăng xuất</string>
+    <string name="logout_msg">Bạn muốn đăng xuất và nhập key lại?</string>
+    <string name="logout_yes">Đăng xuất</string>
+    <string name="cancel">Hủy</string>
+</resources>

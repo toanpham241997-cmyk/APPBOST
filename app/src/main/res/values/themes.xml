@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.HavanhhuanBooster" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/neon_blue</item>
+        <item name="colorPrimaryVariant">@color/neon_purple</item>
+        <item name="colorAccent">@color/neon_blue</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Intro fullscreen: ẩn status bar -->
+    <style name="Theme.HavanhhuanBooster.Splash">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+</resources>
