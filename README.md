@@ -1,4 +1,4 @@
-# HAVANHHUAN Booster 1.1 — GitHub Actions build
+# HAVANHHUAN Booster 1.1.1 — GitHub Actions SDK fix
 
 Ứng dụng Android Kotlin/XML, Android 7.0+ (minSdk 24), Android Gradle Plugin 8.2.2, Gradle 8.4, JDK 17. Không cần Android Studio hoặc cài SDK trên máy để build APK: GitHub Actions lo việc đó.
 
@@ -10,6 +10,13 @@
 4. Mở workflow thành công → mục **Artifacts** → tải **HAVANHHUAN-Booster-debug-apk** → giải nén để lấy `app-debug.apk` cài lên Android.
 
 **Lưu ý:** artifact có định dạng ZIP bọc file APK, không phải file APK trực tiếp. APK debug được ký tự động bằng Android debug key, dành cho kiểm thử/phân phối nội bộ. Để phát hành chính thức, cần tạo signing key bảo mật và quy trình release riêng.
+
+## Bản sửa 1.1.1 — xử lý lỗi GitHub Actions
+
+- Thay `android-actions/setup-android@v3` bằng `@v4`, `packages: ''` để tránh SDK package `tools` đã bị loại bỏ.
+- Cài cụ thể `platform-tools`, `platforms;android-34`, `build-tools;34.0.0`; kiểm tra SDK trước lúc build.
+- Thêm `.gitattributes` giúp giữ định dạng dòng LF cho `gradlew` khi làm việc trên Windows.
+- Xem `GITHUB_FIX_GUIDE.md` nếu GitHub còn chạy workflow cũ hoặc cần kiểm tra log sau khi build.
 
 ## Thay đổi bản 1.1
 
